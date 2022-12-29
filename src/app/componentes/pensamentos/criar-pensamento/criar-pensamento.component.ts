@@ -13,10 +13,16 @@ export class CriarPensamentoComponent implements OnInit {
     model: ''
   }
 
-  constructor() {
+  constructor() { }
 
-  }
   ngOnInit(): void {
   }
 
+  criarPensamento() {
+    alert("criado")
+  }
+
+  cancelarPensamento() {
+    alert("cancelado")
+  }
 }
